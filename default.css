@@ -85,7 +85,7 @@ h6 { font-size: 16px;}
 
 
 .greeting-wrapper{
-	background-image: url("/images/londonWallPaper.jpg");
+	/*background-image: url("/images/londonWallPaper.jpg");*/
 	display: grid;
 	text-align: center;
 	align-content: center;
