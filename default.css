@@ -1,6 +1,6 @@
 :root{
 	--mainColor:#f8fafc;
-	--secondaryColor:rgb(163, 198, 202);
+	--secondaryColor:rgb(242, 246, 247);
 
 	--borderColor:#c1c1c1;
 
@@ -70,7 +70,7 @@ h6 { font-size: 16px;}
 }
 
 .s2{
-	background-color: var(--secondaryColor);
+	background-color: rgb(161, 199, 193);/* var(--secondaryColor);*/
 	border-bottom:1px solid var(--borderColor);
 	overflow:auto;
 }
@@ -79,12 +79,14 @@ h6 { font-size: 16px;}
 
 
 .main-container{
+	
 	width: 800px;
 	margin: 0 auto;
 }
 
 
 .greeting-wrapper{
+	
 	/*background-image: url("/images/londonWallPaper.jpg");*/
 	display: grid;
 	text-align: center;

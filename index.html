@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Hammada Ballali Ebbi</title>
 
@@ -8,13 +9,34 @@
 
 	<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
 
-	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap"
+		rel="stylesheet">
 
-	<link rel="stylesheet" type="text/css" href="default.css">
+	<link rel="stylesheet" type="text/css" href="w3.css">
 	<link id="theme-style" rel="stylesheet" type="text/css" href="">
 </head>
-<body>
 
+<body>
+	<div class="w3-top">
+		<div class="w3-bar w3-white w3-wide w3-padding w3-card">
+			<a href="#home" class="w3-bar-item w3-button"><b>Hammada Ballali</b> Software Engineering</a>
+			<!-- Float links to the right. Hide them on small screens -->
+			<div class="w3-right w3-hide-small">
+				<a href="#projects" class="w3-bar-item w3-button">Projects</a>
+				<a href="#about" class="w3-bar-item w3-button">About</a>
+				<a href="#contact" class="w3-bar-item w3-button">Contact</a>
+			</div>
+		</div>
+	</div>
+
+	<!-- Header -->
+	<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+		<img class="w3-image" src="images/wallpapaer.jpg" alt="Me" width="3000" height="350">
+		<div class="w3-display-middle w3-margin-top w3-right-align">
+			<h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>Hammada Ballali</b></span> <span
+					class="w3-hide-small w3-text-light-grey">Software Engineering</span></h1>
+		</div>
+	</header>
 	<section class="s1">
 		<div class="main-container">
 			<div class="greeting-wrapper">
@@ -25,28 +47,28 @@
 			<div class="intro-wrapper">
 				<div class="nav-wrapper">
 
-					
-					
+
+
 				</div>
 
-				<div class="left-column">
+				<div class="w3-container w3-padding-32">
 					<img id="profile_pic" src="images/hammada1.jpg">
-					
+
 				</div>
 
-				<div class="right-column">
+				<div class="w3-border-bottom w3-border-light-grey w3-padding-16">
 
-					
-						<div id="preview">
-							<div id="corner-tl" class="corner"></div>
-							<div id="corner-tr" class="corner"></div>
-							<h3>What I Do</h3>
-							<p>I'm Application Support Specialist at ZOLL Medical UK </p>
-							<p>Graduated in BSC Computer Science  from Liverpool Hope University </p>
-							
-							<div id="corner-br" class="corner"></div>
-							<div id="corner-bl" class="corner"></div>
-					
+
+					<div id="preview">
+						<div id="corner-tl" class="corner"></div>
+						<div id="corner-tr" class="corner"></div>
+						<h3>What I Do</h3>
+						<p>I'm Application Support Specialist at ZOLL Medical UK </p>
+						<p>Graduated in BSC Computer Science from Liverpool Hope University </p>
+
+						<div id="corner-br" class="corner"></div>
+						<div id="corner-bl" class="corner"></div>
+
 					</div>
 				</div>
 			</div>
@@ -69,7 +91,8 @@
 
 					<h4>What have I learned so far?</h4>
 
-					<p>Electronic and Computer Engineering, Software deployement.<a target="_blank" href="HammadaBallaliResume.pdf">Download Resume</a></p>
+					<p>Electronic and Computer Engineering, Software deployement.<a target="_blank"
+							href="HammadaBallaliResume.pdf">Download Resume</a></p>
 
 					<div id="skills">
 						<ul>
@@ -82,7 +105,7 @@
 							<li>Node.js</li>
 							<li>Kotlin/Android Studio</li>
 
-							
+
 						</ul>
 
 						<ul>
@@ -90,28 +113,28 @@
 							<li>Python</li>
 							<li>Express</li>
 							<li>Angular</li>
-							<li>Lua IoT,
-								Love2D</li>
-							<li>Visual
-								Studio/Code</li>
+							<li>Lua IoT, Love2D</li>
+							<li>Visual Studio/Code</li>
 							<li>JavaScript</li>
-							
+
 						</ul>
 
 					</div>
 
 				</div>
 
-				
+
 				<div class="social-links">
 					<img id="social_img" src="images/social_networks.jpg">
 					<h3>Find me on Instagram, LinkedIn and Facebook</h3>
 
-					<a target="_blank" href="https://www.facebook.com/hammada.ballaliebbi">Facebook:Hammada Ismail Swayah</a>
+					<a target="_blank" href="https://www.facebook.com/hammada.ballaliebbi">Facebook:Hammada Ismail
+						Swayah</a>
 					<br>
 					<a target="_blank" href="https://www.instagram.com/swayah.hammada/">Instagram: @swayah.hammada</a>
 					<br>
-					<a target="_blank" href="https://www.linkedin.com/in/hammada-ballali-ebbi-4aa5091ba/">LinkedIn: @Hammada Ballali Ebbi</a>
+					<a target="_blank" href="https://www.linkedin.com/in/hammada-ballali-ebbi-4aa5091ba/">LinkedIn:
+						@Hammada Ballali Ebbi</a>
 				</div>
 			</div>
 
@@ -120,7 +143,7 @@
 
 	<section class="s1">
 		<div class="main-container">
-			<h3 style="text-align: center;"> My  projects</h3>
+			<h3 style="text-align: center;"> My projects</h3>
 
 			<div class="post-wrapper">
 
@@ -129,7 +152,8 @@
 						<img class="thumbnail" src="images/Godzilla game.PNG">
 						<div class="post-preview">
 							<h6 class="post-title">A simple game coded in Processing</h6>
-							<p class="post-intro">As part of my first year coursework I buit a basic game coded in processing implementing basic logic elements</p>
+							<p class="post-intro">As part of my first year coursework I buit a basic game coded in
+								processing implementing basic logic elements</p>
 							<a href="postGodzilla.html">Read More</a>
 						</div>
 					</div>
@@ -151,22 +175,25 @@
 						<img class="thumbnail" src="images/surtecno.PNG">
 						<div class="post-preview">
 							<h6 class="post-title">Commercial Website</h6>
-							<p class="post-intro">A commercial website to offer acces to customers and sellers implemeting a product databses in MySQL</p>
+							<p class="post-intro">A commercial website to offer acces to customers and sellers
+								implemeting a product databses in MySQL</p>
 							<a href="postCommercialWebsite.html">Read More</a>
 						</div>
 					</div>
 				</div>
-				<div>	
+				<div>
 					<div class="post">
 						<img class="thumbnail" src="images/RoverControl.PNG">
 						<div class="post-preview">
-							<h6 class="post-title">Team Coursework Rover Control Console accessed through a windows form (C++)</h6>
-							<p class="post-intro">A program to control a Formula All Code robot accessed through a Windows Form</p>
+							<h6 class="post-title">Team Coursework Rover Control Console accessed through a windows form
+								(C++)</h6>
+							<p class="post-intro">A program to control a Formula All Code robot accessed through a
+								Windows Form</p>
 							<a href="postRoverControl.html">Read More</a>
 						</div>
 					</div>
 				</div>
-				<div>	
+				<div>
 					<div class="post">
 						<img class="thumbnail" src="images/Modal.PNG">
 						<div class="post-preview">
@@ -176,7 +203,7 @@
 						</div>
 					</div>
 				</div>
-				<div>	
+				<div>
 					<div class="post">
 						<img class="thumbnail" src="images/LuaL1Start.PNG">
 						<div class="post-preview">
@@ -196,10 +223,11 @@
 			<a href=""></a>
 			<h3 style="text-align: center;">Contact me by email : hammadaballali@gmail.com</h3>
 
-			
+
 		</div>
-	</section> 
+	</section>
 
 	<script type="text/javascript" src="script.js"></script>
 </body>
+
 </html>
