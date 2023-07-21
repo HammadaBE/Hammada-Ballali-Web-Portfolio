@@ -290,8 +290,10 @@ hr {
 }
 
 .w3-image {
+    opacity : 1;
     max-width: 50%;
     height: auto
+    
 }
 
 img {
