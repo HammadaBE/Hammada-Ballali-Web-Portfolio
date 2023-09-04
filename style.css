@@ -1994,3 +1994,12 @@ a {
 .w3-hover-border-pale-blue:hover {
     border-color: #e7ffff !important
 }
+
+/* Style for the profile image */
+.profile-image {
+    max-width: 70%; /* Set a maximum width to ensure it doesn't overflow on small screens */
+    height: auto; /* Let the height adjust automatically to maintain aspect ratio */
+    display: block; /* Remove any potential inline spacing */
+    margin: 0 auto; /* Center the image horizontally */
+    border-radius: 50%; /* Apply a circular border */
+}
