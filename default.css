@@ -395,6 +395,22 @@ h6 { font-size: 16px;}
 
 }
 
+@media (max-width: 768px) {
+    /* Adjust styles for phone screens */
+    .w3-display-middle {
+        top: 30%;
+    }
+    
+    .w3-xxlarge {
+        font-size: 24px;
+    }
+    
+    .profile-image {
+        max-width: 100px;
+        height: auto;
+    }
+}
+
 @media screen and (max-width: 400px){
 	#preview-shadow{
 		max-width: 280px;
