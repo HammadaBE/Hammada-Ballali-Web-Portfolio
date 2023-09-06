@@ -952,6 +952,22 @@ a {
     }
 }
 
+@media (max-width: 768px) {
+    /* Adjust styles for phone screens */
+    .w3-display-middle {
+        top: 30%;
+    }
+    
+    .w3-xxlarge {
+        font-size: 24px;
+    }
+    
+    .profile-image {
+        max-width: 100px;
+        height: auto;
+    }
+}
+
 .w3-top,
 .w3-bottom {
     position: fixed;
