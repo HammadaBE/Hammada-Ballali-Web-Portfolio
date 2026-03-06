@@ -1,3 +1,25 @@
+
+/* Header profile image positioning (prevents overlap with centered title) */
+.header-profile {
+    position: absolute;
+    top: 100px;
+    right: 0px;
+    width: 19vw; /* 20% of viewport width */
+    max-width: none;
+    min-width: 0;
+    height: auto;
+    border-radius: 60%;
+}
+
+@media (max-width: 700px) {
+    .header-profile {
+        position: static;
+        display: block;
+        margin: 0.75rem auto;
+        width: 30vw;
+        max-width: 120px;
+    }
+}
 /* W3.CSS 4.15 December 2020 by Jan Egil and Borge Refsnes */
 html {
     box-sizing: border-box
@@ -820,11 +842,11 @@ a {
 }
 
 .w3-content {
-    max-width: 980px
+    max-width: 1100px
 }
 
 .w3-auto {
-    max-width: 1140px
+    max-width: 1400px
 }
 
 .w3-cell-row {
