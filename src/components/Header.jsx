@@ -6,7 +6,7 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="py-4 lg:px-12 fixed top-0 left-0 right-0 bg-cyan-100 backdrop-blur-lg z-50 ">
+    <nav className="py-4 lg:px-12 fixed top-0 left-0 right-0 bg-cyan-100  z-50 ">
       <div className=" flex items-center justify-between">
         
         <div className="flex items-center">
@@ -52,44 +52,37 @@ const Header = () => {
 
       {/* Mobile Navigation */}
       {isMenuOpen && (
-        <div className="md:hidden absolute top-full left-0 w-full bg-tech-blue border-t border-gray-800 py-4 px-6">
-          <div className="flex flex-col space-y-4">
+        <div className="md:hidden absolute top-full left-0 w-full bg-slate-500/80 backdrop-blur-lg  border-gray-800 py-4 px-6">
+          <div className="flex flex-col space-y-4 text-gray-300 hover:text-white py-2 font-bold">
             <a
               href="about"
-              className="text-gray-300 hover:text-white py-2"
+              className=""
               onClick={() => setIsMenuOpen(false)}
             >
               About
             </a>
             <a
               href="#workExperience"
-              className="text-gray-300 hover:text-white py-2"
+              className=""
               onClick={() => setIsMenuOpen(false)}
             >
               Work Experience
             </a>
             <a
               href="#projects"
-              className="text-gray-300 hover:text-white py-2"
+              className=""
               onClick={() => setIsMenuOpen(false)}
             >
               Projects
             </a>
             <a
               href="#contacts"
-              className="text-gray-300 hover:text-white py-2"
+              className=""
               onClick={() => setIsMenuOpen(false)}
             >
               Contact
             </a>
-            <div className="flex flex-col space-y-2 pt-2">
-              <Button variant="outline" className="border-tech-purple text-tech-purple w-full">
-                Log In
-              </Button>
-              <Button className="bg-tech-purple hover:bg-tech-violet text-white w-full">
-                Get Started
-              </Button>
-            </div>
+            
           </div>
         </div>
       )}
