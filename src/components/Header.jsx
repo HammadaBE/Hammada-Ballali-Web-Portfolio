@@ -55,7 +55,7 @@ const Header = () => {
         <div className="md:hidden absolute top-full left-0 w-full bg-slate-500/80 backdrop-blur-lg  border-gray-800 py-4 px-6">
           <div className="flex flex-col space-y-4 text-gray-300 hover:text-white py-2 font-bold">
             <a
-              href="about"
+              href="#about"
               className=""
               onClick={() => setIsMenuOpen(false)}
             >
