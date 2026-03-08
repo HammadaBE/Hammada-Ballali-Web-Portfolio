@@ -3,7 +3,7 @@ import Card from "./Card"
 const WorkExperience = () => {
 
     return (
-        <section id="workExperience" className="w-full bg-white backdrop-blur-lg  text-cyan-800 flex items-center py-12 h-auto border border-orange-300">
+        <section id="workExperience" className="w-full flex justify-center items-center bg-white backdrop-blur-lg  text-cyan-800  py-12 h-auto border border-orange-300">
             
             <div className="container mx-12 my-10 px-6 flex flex-col items-center justify-center gap-6">
                 <h1 className="text-4xl font-bold mb-6">Work Experience</h1>
