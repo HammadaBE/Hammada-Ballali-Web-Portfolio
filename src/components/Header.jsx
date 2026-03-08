@@ -51,7 +51,7 @@ const Header = () => {
       </div>
 
       {/* Mobile Navigation */}
-      {/* {isMenuOpen && (
+      {isMenuOpen && (
         <div className="md:hidden absolute top-full left-0 w-full bg-tech-blue border-t border-gray-800 py-4 px-6">
           <div className="flex flex-col space-y-4">
             <a
@@ -92,7 +92,7 @@ const Header = () => {
             </div>
           </div>
         </div>
-      )} */}
+      )}
     </nav>
   );
 };
