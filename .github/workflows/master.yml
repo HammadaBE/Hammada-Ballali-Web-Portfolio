@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "master" ]  # or "main" if your branch is main
 
 permissions:
   contents: read
@@ -23,8 +23,16 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Make Vite executable
+        run: chmod +x node_modules/.bin/vite
+
       - name: Build project
         run: npx vite build
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist
 
   deploy:
     needs: build
