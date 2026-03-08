@@ -9,4 +9,5 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
+  base: '/Hammada-Ballali-Web-Portfolio/' // <-- CHANGE THIS to your repo name
 })
