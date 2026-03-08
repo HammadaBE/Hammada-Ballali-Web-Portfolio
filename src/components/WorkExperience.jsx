@@ -7,7 +7,7 @@ const WorkExperience = () => {
             
             <div className="container mx-12 my-10 px-6 flex flex-col items-center justify-center gap-6">
                 <h1 className="text-4xl font-bold mb-6">Work Experience</h1>
-                <Card imageUrl="images/CentredSolutions-logo.png"
+                <Card imageUrl="/images/CentredSolutions-logo.png"
                     title="Technical Specialist L2+ Infrastructure Engineer"
                     company="Centred Solutions"
                     duration="April 2025 - Present"
@@ -29,7 +29,7 @@ const WorkExperience = () => {
                     link="https://www.centredsolutions.co.uk/" />
 
 
-                <Card imageUrl="images/zoll-logo.jpg"
+                <Card imageUrl="/images/zoll-logo.jpg"
                     title="Application Support Specialist"
                     company="Zoll Medical"
                     duration="June 2023 - April 2025"
@@ -50,7 +50,7 @@ const WorkExperience = () => {
                                 • Pre-sales support within the Sales Engineering Team  "
                     link="https://www.zoll.com/en-gb" />
 
-                <Card imageUrl="images/hope-uni-logo.jpg"
+                <Card imageUrl="/images/hope-uni-logo.jpg"
                     title="Technical Assistant"
                     company="Liverpool Hope University"
                     duration="October 2022 - June 2023"
