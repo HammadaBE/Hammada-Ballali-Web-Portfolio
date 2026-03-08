@@ -34,7 +34,7 @@ const Header = () => {
           <a href="#about" className="text-lg text-cyan-800 hover:text-white transition-colors">About</a>
           <a href="#workExperience" className="text-lg text-cyan-800 hover:text-white transition-colors">Work Experience</a>
           <a href="#projects" className="text-lg text-cyan-800 hover:text-white transition-colors">Projects</a>
-          <a href="#contacts" className="text-lg text-cyan-800 hover:text-white transition-colors">Contacts</a>
+          <a href="#contacts" className="text-lg text-cyan-800 hover:text-white transition-colors">Contact</a>
           
         </div>
 
@@ -55,32 +55,32 @@ const Header = () => {
         <div className="md:hidden absolute top-full left-0 w-full bg-tech-blue border-t border-gray-800 py-4 px-6">
           <div className="flex flex-col space-y-4">
             <a
-              href="#features"
+              href="about"
               className="text-gray-300 hover:text-white py-2"
               onClick={() => setIsMenuOpen(false)}
             >
-              Features
+              About
             </a>
             <a
-              href="#how-it-works"
+              href="#workExperience"
               className="text-gray-300 hover:text-white py-2"
               onClick={() => setIsMenuOpen(false)}
             >
-              How It Works
+              Work Experience
             </a>
             <a
-              href="#examples"
+              href="#projects"
               className="text-gray-300 hover:text-white py-2"
               onClick={() => setIsMenuOpen(false)}
             >
-              Examples
+              Projects
             </a>
             <a
-              href="#pricing"
+              href="#contacts"
               className="text-gray-300 hover:text-white py-2"
               onClick={() => setIsMenuOpen(false)}
             >
-              Pricing
+              Contact
             </a>
             <div className="flex flex-col space-y-2 pt-2">
               <Button variant="outline" className="border-tech-purple text-tech-purple w-full">
