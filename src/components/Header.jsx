@@ -33,8 +33,10 @@ const Header = () => {
         <div className="hidden md:flex space-x-6">
           <a href="#about" className="text-lg text-cyan-800 hover:text-white transition-colors">About</a>
           <a href="#workExperience" className="text-lg text-cyan-800 hover:text-white transition-colors">Work Experience</a>
+          <a href="#academics" className="text-lg text-cyan-800 hover:text-white transition-colors">Academics</a>
+          <a href="#research" className="text-lg text-cyan-800 hover:text-white transition-colors">Research</a>
           <a href="#projects" className="text-lg text-cyan-800 hover:text-white transition-colors">Projects</a>
-          <a href="#contacts" className="text-lg text-cyan-800 hover:text-white transition-colors">Contact</a>
+          <a href="#contact" className="text-lg text-cyan-800 hover:text-white transition-colors">Contact</a>
           
         </div>
 
@@ -69,6 +71,20 @@ const Header = () => {
               Work Experience
             </a>
             <a
+              href="#academics"
+              className=""
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Academics
+            </a>
+            <a
+              href="#research"
+              className=""
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Research
+            </a>
+            <a
               href="#projects"
               className=""
               onClick={() => setIsMenuOpen(false)}
@@ -76,7 +92,7 @@ const Header = () => {
               Projects
             </a>
             <a
-              href="#contacts"
+              href="#contact"
               className=""
               onClick={() => setIsMenuOpen(false)}
             >
