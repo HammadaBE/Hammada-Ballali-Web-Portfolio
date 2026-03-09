@@ -11,7 +11,7 @@ const Contact = () => {
                         <a href="mailto:ballaliebbihammada@gmail.com" className="text-2xl text-white hover:text-white transition-colors">Email</a>
                     </Button>
                     <Button variant="outline" size="sm" asChild>
-                        <a href="https://www.linkedin.com/in/hammada-ballali/" target="_blank" rel="noopener noreferrer" className="text-2xl text-white hover:text-white transition-colors">LinkedIn</a>
+                        <a href="https://www.linkedin.com/in/hammada-ballali-ebbi-4aa5091ba/" target="_blank" rel="noopener noreferrer" className="text-2xl text-white hover:text-white transition-colors">LinkedIn</a>
                     </Button>
                 </div>
             </div>
