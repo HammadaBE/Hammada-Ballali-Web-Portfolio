@@ -5,6 +5,8 @@ import About from './components/About';
 import WorkExperience from './components/WorkExperience';
 import Academics from './components/Academics';
 import Research from './components/Research';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 export default function App() {
   return (
@@ -22,6 +24,8 @@ export default function App() {
       <WorkExperience />
       <Academics />
       <Research />
+      <Contact />
+      <Footer />
 
     </div>
 
