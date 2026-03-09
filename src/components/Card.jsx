@@ -12,7 +12,7 @@ const Card = (props) => {
                 <p className="text-gray-500 mb-4">{duration}</p>
                 <p className="text-gray-700 mb-4">{description}</p>
                 <Button variant="outline" size="sm" asChild>
-                <a href={link} className="text-blue-500 hover:text-blue-700">
+                <a href={link} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700">
                     Learn More
                 </a>
                 </Button>
