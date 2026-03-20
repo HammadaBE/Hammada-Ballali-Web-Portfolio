@@ -5,6 +5,7 @@ import About from './components/About';
 import WorkExperience from './components/WorkExperience';
 import Academics from './components/Academics';
 import Research from './components/Research';
+import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -24,6 +25,7 @@ export default function App() {
       <WorkExperience />
       <Academics />
       <Research />
+      <Projects />
       <Contact />
       <Footer />
 
