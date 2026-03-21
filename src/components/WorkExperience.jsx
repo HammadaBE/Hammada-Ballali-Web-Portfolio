@@ -10,7 +10,7 @@ const WorkExperience = () => {
                 <Card imageUrl="/images/CentredSolutions-logo.png"
                     title="Technical Specialist L2+ Infrastructure Engineer"
                     company="Centred Solutions"
-                    duration="April 2025 - Present"
+                    duration="April 2025 - April 2026"
                     description="• Manage, deploy and update Network and Computing resources. 
                                 • Deploying Django applications in Linux Servers 
                                 • Administering and managing VMware ESXi and Proxmox hypervisors, for optimal 
