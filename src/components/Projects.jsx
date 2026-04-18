@@ -25,6 +25,13 @@ const Projects = () => {
 • Built entirely in Kotlin following Android development best practices
 • Implemented a car selection and date booking flow across multiple screens
 • Managed UI state and navigation using Android's activity/fragment lifecycle`
+        },
+        {
+            imageUrl: "/images/MT5Builder.png",
+            title: "TRADING BOT BUILDER FOR META TRADER 5",
+            duration: "06/2025 – In development",
+            link: "https://github.com/HammadaBE/MT5TradingBotBuilder",
+            description: `• MT5 Expert Advisor Builder is a cloud-based, no-code platform that enables traders to design custom automated trading strategies through a visual drag-and-drop interface. The system transforms user-defined rules into fully functional MQL5 Expert Advisor files, which can be downloaded and deployed in MetaTrader 5. Built with a scalable architecture using React, Django, and AWS, the platform emphasizes user control, transparency, and compliance by generating code without providing trading signals or strategy recommendations.`
         }
     ];
 
