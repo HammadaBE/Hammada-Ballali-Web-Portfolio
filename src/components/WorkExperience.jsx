@@ -7,6 +7,34 @@ const WorkExperience = () => {
             
             <div className="container md:mx-12 my-10 px-6 flex flex-col items-center justify-center gap-6 ">
                 <h1 className="text-4xl font-bold mb-6">Work Experience</h1>
+
+                <Card 
+                    imageUrl="/images/callcare_logo.jpeg"
+                    title="SENIOR INFRASTRUCTURE ENGINEER"
+                    company="CallCare, Manchester, UK"
+                    duration="04/2026 – Current"
+                    description="• Designed, built, deployed, and maintained enterprise server and network infrastructure across on-premises and cloud environments.
+                                • Managed and optimized Kubernetes and Linux clusters for high availability, scalability, and performance.
+                                • Deployed and administered containerized workloads using Docker and Kubernetes orchestration.
+                                • Implemented infrastructure monitoring, observability, and alerting solutions using Prometheus, Grafana, and Loki.
+                                • Managed AWS cloud infrastructure and services, supporting secure and scalable production environments.
+                                • Configured and maintained VPNs, tunneling solutions, OpenVPN, Netgate appliances, and Cisco switching infrastructure.
+                                • Installed, configured, and maintained Dell rack servers and enterprise networking hardware.
+                                • Administered Linux and Windows Server environments, including Active Directory, IIS, and Nginx.
+                                • Managed database platforms including MariaDB, MongoDB, and PostgreSQL.
+                                • Supported VoIP and communication systems including Asterisk and 3CX/Web3CX platforms.
+                                • Automated infrastructure provisioning, deployments, and operational tasks using Ansible, Terraform, Bash, and Python scripting.
+                                • Managed identity and access services using Microsoft Entra ID.
+                                • Maintained secure remote access environments using Apache Guacamole.
+                                • Utilized NetBox for infrastructure documentation, IP management, and asset tracking.
+                                • Managed incident response, troubleshooting, and support workflows using Jira and GLPI ticketing systems.
+                                • Collaborated within Agile/Scrum teams to deliver infrastructure improvements and operational enhancements.
+                                • Developed and integrated custom AI-driven tools to improve operational efficiency, monitoring, and automation.
+                                • Performed system performance tuning, patch management, backup strategies, and disaster recovery planning.
+                                • Ensured infrastructure security, reliability, compliance, and operational best practices across all environments.
+                                • Technologies: Kubernetes, Docker, Linux, AWS, Prometheus, Grafana, Loki, Apache Guacamole, MariaDB, MongoDB, PostgreSQL, Microsoft Entra ID, Asterisk, 3CX/Web3CX, Ansible, Terraform, Bash, Python, Jira, GLPI, NetBox, Nginx, Windows Server, Active Directory, IIS, OpenVPN, Netgate, Cisco Switching, Dell Rack Servers, Scrum, AI Automation Tools."
+                    link="https://www.callcare247.com/" />
+
                 <Card imageUrl="/images/CentredSolutions-logo.png"
                     title="Technical Specialist L2+ Infrastructure Engineer"
                     company="Centred Solutions"
